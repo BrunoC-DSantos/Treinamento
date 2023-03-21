@@ -1,7 +1,7 @@
 programa {
   funcao inicio() {
     inteiro tabuada, valor = 1, resultado
-    escreva ("Escolha a tabuada")
+    escreva ("Escolha a tabuada: ")
     leia(tabuada)
     enquanto (valor <=10)
     {
