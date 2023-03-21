@@ -1,13 +1,12 @@
 programa {
   funcao inicio() {
-    inteiro tabuada, valor = 1, resultado
+    inteiro tabuada, valor = 1
     escreva ("Escolha a tabuada: ")
     leia(tabuada)
     enquanto (valor <=10)
     {
-      resultado = tabuada * valor
-      escreva("\n", tabuada, "X", valor, "=", resultado)
-      valor = valor + 1
+      escreva("\n", tabuada, "X", valor, "=", (valor*tabuada))
+      valor ++
     }
   }
 }
